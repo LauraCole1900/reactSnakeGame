@@ -20,7 +20,7 @@ This application uses a React to create a snake game.
 
 ## Links
 
-[Deployed application on Heroku](https://#) NOT DEPLOYED YET
+[Deployed application on GitHub Pages](https://#) NOT DEPLOYED YET
 
 ## Screenshots
 
