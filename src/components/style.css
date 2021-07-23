@@ -1,0 +1,20 @@
+:root {
+  --charcoal: #1b1b1b;
+}
+
+.board {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid var(--charcoal) !important;
+}
