@@ -15,6 +15,21 @@ const Game = () => {
   const [direction, setDirection] = useState("right");
   const [dead, setDead] = useState(false);
 
+  const getRandomGrid = () => {
+    return {
+      row: Math.floor((Math.random() * rows)),
+      col: Math.floor((Math.random() * cols))
+    }
+  }
+
+  // Set snake and food to start at center of grid
+  const gridCenter = () => {
+    return {
+      row: Math.floor((rows - 1) / 2),
+      col: Math.floor((cols - 1) / 2)
+    }
+  }
+
 
   return (
     <>
