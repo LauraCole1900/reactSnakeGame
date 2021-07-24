@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useKeypress } from "../utils";
 import "./style.css";
 
 const Game = () => {
@@ -15,9 +16,9 @@ const Game = () => {
   const [dead, setDead] = useState(false);
 
 
-  return(
+  return (
     <>
-    
+
     </>
   )
 }
